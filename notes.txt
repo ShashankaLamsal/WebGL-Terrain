@@ -1,0 +1,13 @@
+why use let instead of const for array declaration?
+let currentVertices = pyramidVertices;
+//const ma no reassigning the whole thing i.e. 1 element of array can be chnaged, not the whole array
+
+--------------------
+setInterval(() => {
+    animate();
+    }, 10); //10 milliseconds
+VS
+requestAnimationFrame(animate);
+requestAnimationFrame syncs animations with the browser's refresh rate for smoother performance,
+while setInterval runs at fixed intervals and can cause jittery motion. 
+ 
